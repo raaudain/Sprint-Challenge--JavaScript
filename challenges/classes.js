@@ -1,3 +1,5 @@
+// 1. Copy and paste your prototype in here and refactor into class syntax.
+
 class NewCuboiMaker{
     constructor(attr){
         this.length = attr.length;
