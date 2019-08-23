@@ -15,7 +15,7 @@
 // Using your dinosaur objects, log answers to these questions:
 
 const tyrannosaurus = {
-  name: "Tyrannosaurus",
+  name: "tyrannosaurus",
   diet: "carnivorous",
   weight: "7000kg",
   length: "12m",
@@ -26,7 +26,7 @@ const tyrannosaurus = {
 }
 
 const stegosaurus = {
-  name: "Stegosaurus",
+  name: "stegosaurus",
   diet: "herbivorous",
   weight: "2000kg",
   length: "9m",

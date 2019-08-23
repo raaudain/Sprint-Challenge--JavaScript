@@ -34,17 +34,17 @@ Edit this document to include your answers after each question. Make sure to lea
 
 2. What is the difference between a function and a method?
 
-
+    Methods have a "receiver" and functions don't.  For example: in ramon.indexOf(), ramon is the receiver.  For functions, like ramon(isGreat), there's now receiver.
 
 3. What is closure?
 
-    
+    An inner function that has access to the outer functions' scope.
 
 4. Describe the four rules of the 'this' keyword.
 
     1. Window/Global Object Binding: Whenever a function is contain in the globel scope, the value of "this" is equeal to the window object.
 
-    2. Implicit Binding: Whenever a function is called, the object to the left of the dot(.) is what "this" is referring to.
+    2. Implicit Binding: Whenever a function is called, the object to the left of the dot is what "this" is referring to.
 
     3. New Binding: Whenever a constructor function is used, the "this" keyword is referring to the specific instance of the object that is created and returned by my constructor function.
 
